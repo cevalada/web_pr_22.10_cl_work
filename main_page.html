@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background-image: url('hotel-transylvania-3-dom-htr3_trla160.1025_lm_v4_rgb_3_copy_-_h_2018.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+    }
+    .text {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8); /* Black background with some transparency */
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .container {
+      text-align: center; /* Centers the button inside the container */
+    }
+    .collapse {
+      color: white;
+      margin-top: 10px; /* Adds some space between the button and the collapse content */
+    }
+  </style>
+</head>
+<body>
+  <div class="text">
+    <h1>Hotel Transylvania</h1>
+  </div>
+  <div class="container text-center">
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Movie info</button>
+    <div id="demo" class="collapse">
+        The film tells the story of Count Dracula, the famed vampire who is also
+         the owner of the titular Hotel Transylvania where the world's monsters can take
+          a rest from human civilization. Dracula invites some of the most
+        famous monsters to celebrate the 118th birthday of his beloved daughter Mavis.
+    </div>
+  </div>
+</body>
+</html>
